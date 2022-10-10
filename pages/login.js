@@ -41,11 +41,11 @@ export default function LoginScreen() {
   return (
     <Layout title="Login">
       <div class="body-bg min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0 bg-gradient-to-b from-[#898989] to-[#c79295]">
-    <header class="max-w-lg mx-auto">
-        <a href="#">
+        <header class="max-w-lg mx-auto">
+         <a href="#">
             <h1 class="text-4xl font-bold text-white text-center">Giriş</h1>
-        </a>
-    </header>
+         </a>
+        </header>
 
     <main class="bg-white max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
         <section>

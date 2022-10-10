@@ -9,7 +9,7 @@ import { useRouter } from 'next/router';
 import axios from 'axios';
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
-export default function LoginScreen() {
+export default function ilanver() {
   const { data: session } = useSession();
   const [phoneNumber, setPhoneNumber] = useState("");
   const router = useRouter();

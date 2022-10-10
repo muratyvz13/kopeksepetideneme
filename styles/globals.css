@@ -4,11 +4,60 @@
 
 html,
 body {
+  width: 1780px;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Montserrat";
 }
+.imageboyut
+{
+  width: 500px;
+  height: 600px;
+}
+.imageboyut2
+{
+  max-width:100%; 
+  height:auto;
+}
+.kosele {
+  justify-content: space-between;
+}
+.sticky-div {
+  display : none;
+}
+.logo-settings
+{
+  content:url("/images/logo.png"); 
+}
+.currentcard
+{
+  @apply w-72 h-72;
+}
+@media (max-width: 640px) { 
+  html,
+  body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+.sticky-div {
+  display: flex;
+  position : sticky;
+ bottom:0;
+ font-size: 30px;
+ color: white;
+}
+.currentcard
+{
+  @apply w-48 h-64;
+}
+.logo-settings
+{
+  content:url("/images/logomobile.png"); 
+}
+}
+
 
 a {
   @apply text-blue-600 hover:text-blue-800;
